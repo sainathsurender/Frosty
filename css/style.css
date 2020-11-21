@@ -13,6 +13,11 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: museoslab;
+  src: url(../fonts/museoslab/Museo_Slab_500.otf);
+}
+
 html {
   overflow-x: hidden;
 }
@@ -310,6 +315,7 @@ a:hover, a:focus, a:active {
   text-indent: -999999px;
   -webkit-transition: .2s all;
   transition: .2s all;
+  background-size: 100px;
 }
 
 @media screen and (max-width: 768px) {
@@ -1937,7 +1943,7 @@ section[data-section="menu"] {
 
 .flexslider .slides > li.overlay:before {
   content: "";
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0);
   position: absolute;
   top: 0;
   left: 0;
@@ -2327,4 +2333,34 @@ section[data-section="menu"] {
 
 div .flexslider .probootstrap-slider-text {
   margin-top: 150px;
+}
+
+.home_banner
+{
+  width: 100vw;
+  background-color: #FAC92A;
+  height: 100vh;
+}
+
+.banner_absolute{
+  right: 5%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.banner_absolute
+{
+  right:5%;
+  position:absolute;
+  bottom:0px;
+}
+
+.banner-text{
+  position: absolute;
+  left: 10%;
+  top: 25vh;
+  width: 56%;
+  font-size: 120px;
+  color: #ffffff;
+  font-family: museoslab;
 }
